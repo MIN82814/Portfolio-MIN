@@ -1,0 +1,164 @@
+// ==========================================
+// 💡 動畫定義區 (Keyframes)
+// ==========================================
+
+// 1. 純上下輕微漂浮動畫 (效能最高)
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px); // 向上飄移 12px
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+// 2. 💡 修改：花朵專用的快速度純旋轉動畫
+@keyframes spinning {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg); // 順時針轉滿一整圈
+  }
+}
+
+// ==========================================
+// 💡 區塊樣式與定位 (Hero Section)
+// ==========================================
+.hero {
+  overflow-x: clip;
+  min-height: 700px;
+  .hero-img {
+    width: 100%;
+    height: auto;
+  }
+
+  // 3. 幫所有裝飾物加上共同的動態基底設定
+  [class*="decora-"],
+  .flower {
+    animation-iteration-count: infinite; // 無限循環
+  }
+
+  // 💡 漂浮類型的裝飾物維持原有的 ease-in-out 物理緩衝
+  [class*="decora-"] {
+    animation-timing-function: ease-in-out;
+  }
+
+  // 各別裝飾品獨立定位與錯開動畫時間 (Duration & Delay)
+  .decora-1 {
+    top: 10%;
+    left: -11%;
+    animation-name: floating;
+    animation-duration: 4s;
+    max-width: 210px;
+    height: auto;
+  }
+
+  .decora-2 {
+    bottom: 10%;
+    right: -11%;
+    animation-name: floating;
+    animation-duration: 4.5s;
+    animation-delay: 0.5s;
+    max-width: 160px;
+    height: auto;
+  }
+
+  .decora-3 {
+    top: 1%;
+    left: -11%;
+    z-index: -999;
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    width: 140px;
+  }
+
+  .decora-4 {
+    bottom: -30%;
+    left: 38%;
+    animation-name: floating;
+    animation-duration: 3.8s;
+    animation-delay: 0.2s;
+    width: 180px;
+    height: auto;
+  }
+
+  .decora-5 {
+    right: -12%;
+    animation-name: floating;
+    animation-duration: 4.2s;
+    animation-delay: 0.7s;
+    width: 160px;
+    height: auto;
+  }
+  .line-5 {
+    width: auto;
+    height: 100px;
+  }
+  .decora-6 {
+    top: 1%;
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-delay: 1.2s;
+    width: 280px;
+    height: auto;
+  }
+  .line-6 {
+    width: 250px;
+    height: 60px;
+  }
+  .decora-7 {
+    top: 1%;
+    left: -11%;
+    z-index: -999;
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    width: 250px;
+  }
+
+  .flower,
+  .flower-small {
+    animation-name: spinning;
+    animation-timing-function: linear;
+    animation-duration: 6s;
+    width: 140px;
+  }
+
+  .flower-small {
+    width: 80px;
+    height: 80px;
+  }
+
+  // ==========================================
+  // 📱 RWD 行動裝置回應式設計 (max-width: 992px)
+  // ==========================================
+  @media (max-width: 992px) {
+    padding-bottom: 24px;
+
+    .decora-1,
+    .decora-2 {
+      width: 80px;
+      height: auto;
+    }
+
+    .decora-4 {
+      bottom: 72%;
+      left: 63%;
+      width: 75px;
+      align-items: center;
+
+      img {
+        height: auto;
+      }
+    }
+  }
+}
+.z-index-front {
+  position: relative;
+  z-index: 10;
+}

@@ -1,0 +1,73 @@
+.btn {
+  border-radius: 999px;
+  min-width: 130px;
+  padding: 12px 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+
+  // 📱 因為放在 bootstrap 後面，這個斷點 mixin 就能完美運作不報錯！
+  @include media-breakpoint-down(md) {
+    min-width: 100px;
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+}
+
+// 🎯 特殊非標準按鈕（例如你的 arrow-btn）才單獨寫在這裡
+.arrow-btn {
+  border-radius: 999px;
+  padding: 12px;
+  line-height: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: $neutral-700;
+  color: $neutral-0;
+
+  &:hover {
+    background: $neutral-900;
+  }
+
+  @include media-breakpoint-down(md) {
+    .material-symbols-outlined {
+      font-size: 20px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+// 🟢 處理你的 .btn-outline-neutral
+.btn.btn-outline-neutral {
+  border-color: $neutral-700;
+  color: $neutral-700;
+  background-color: transparent;
+
+  // 💡 直接手寫指定滑鼠移入、點擊、聚焦時的顏色
+  &:hover,
+  &:active,
+  &:focus,
+  &.active {
+    background-color: $primary-50; // 強制切換成美美的淡橘色底
+    border-color: $neutral-700; // 邊框維持深灰
+    color: $neutral-700; // 文字維持深灰
+  }
+}
+
+// 🟢 處理原生的 .btn-outline-primary
+.btn.btn-outline-primary {
+  border-color: $primary-900;
+  color: $primary-900;
+  background-color: transparent;
+
+  &:hover,
+  &:active,
+  &:focus,
+  &.active {
+    background-color: $neutral-900; // 強制切換成深灰底
+    border-color: $neutral-900;
+    color: $neutral-0; // 文字變白
+  }
+}

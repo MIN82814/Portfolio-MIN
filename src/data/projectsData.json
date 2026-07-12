@@ -1,0 +1,150 @@
+[
+  {
+    "id": "project-001",
+    "date": "Mar, 2026",
+    "dateAttr": "2026-03",
+    "tag": ["React前端開發", "網頁切版", "UI 設計與規劃"],
+    "title": "觀葉森活 電商專案",
+    "subtitle": "與團隊共同開發，提供商品瀏覽、購物流程、文章閱讀與會員管理等功能。專案採用 React 建立前後台系統，透過 RESTful API 串接資料，並以 Git Flow 進行團隊協作開發。",
+    "bgImg": "https://github.com/MIN82814/PortfolioPhoto/blob/main/ProjectPhoto/leafAndHome_hero.png?raw=true",
+    "mobileBgImg": "https://github.com/MIN82814/PortfolioPhoto/blob/main/ProjectPhoto/leafAndHome_mobileHero.png?raw=true",
+    "modal": {
+      "heroImage": "https://github.com/MIN82814/PortfolioPhoto/blob/main/ProjectPhoto/leafAndHome_modal_hero.jpg?raw=true",
+      "mobileHeroImage": "https://github.com/MIN82814/PortfolioPhoto/blob/main/ProjectPhoto/leafAndHome_modal_mobileHero.png?raw=true",
+      "introImage": "https://github.com/MIN82814/PortfolioPhoto/blob/main/ProjectPhoto/leafAndHome_modal_introduce.jpg?raw=true",
+      "intro": "與團隊共同開發，提供商品瀏覽、購物流程、文章閱讀與會員管理等功能。專案採用 React 建立前後台系統，透過 RESTful API 串接資料，並以 Git Flow 進行團隊協作開發。",
+      "technologies": [
+        "React",
+        "React Route",
+        "Vite",
+        "Axios",
+        "Bootstrap 5",
+        "Git / GitHub"
+      ],
+      "links": {
+        "github": "https://github.com/MIN82814/leafAndHome",
+        "demo": "https://min82814.github.io/leafAndHome/",
+        "responsiblePages": [
+          {
+            "name": "文章列表頁",
+            "url": "https://min82814.github.io/leafAndHome/#/articles"
+          },
+          {
+            "name": "單一文章頁",
+            "url": "https://min82814.github.io/leafAndHome/#/articles/-OjFbN8au2K1LWeWt0Vp"
+          }
+        ]
+      },
+      "responsibilities": [
+        "✦ 3 個文章前後台模組開發，包含文章列表頁、單篇文章頁與後台文章管理頁， **RWD 介面設計與互動功能實作**。",
+        "✦ **串接 8 支文章模組 RESTful API**，透過 **API service 模組化管理**前台文章資料、後台 CRUD 流程，並負責 API 回傳資料整合與畫面呈現。",
+        "✦ 採用 **React 元件化開發模式**，將文章頁拆分為 Hero、文章內容、相關商品、相關文章、電子報與留言等功能元件，提升結構清晰度與維護性。",
+        "✦ **文章搜尋、標籤篩選與分頁功能**，透過 **React state 管理**搜尋條件與頁碼，完成前端資料篩選、排序與分頁邏輯。",
+        "✦ 整合 Mailchimp 電子報訂閱表單，完成**第三方訂閱服務導入。**",
+        "✦ 開發 Loading 與 Pagination 共用元件，提升跨頁面重用性與維護效率。",
+        "✦ 與 4 人團隊協作，採用 **Git Flow 策略與 Pull Request** 進行開發，共同參與版本控管與功能整合流程。"
+      ],
+      "contentImages": [
+        {
+          "title": "單一文章頁 完整版面展示",
+          "url": "https://github.com/MIN82814/PortfolioPhoto/blob/main/ProjectPhoto/leafAndHome_detail-demo.png?raw=true"
+        },
+        {
+          "title": "文章列表頁 完整版面展示",
+          "url": "https://github.com/MIN82814/PortfolioPhoto/blob/main/ProjectPhoto/leafAndHome_list-demo.png?raw=true"
+        }
+      ]
+    }
+  },
+  {
+    "id": "project-002",
+    "date": "Sep, 2025",
+    "dateAttr": "2025-09",
+    "tag": ["網頁切版"],
+    "title": "CASHU 記帳 App",
+    "subtitle": "與 AAPD UI 設計團隊協作開發行動端記帳 App，負責 Figma 設計稿交接、技術可行性評估與前端流程切版，專案著重於版面高還原度、介面一致性與元件化開發流程。",
+    "bgImg": "https://github.com/MIN82814/PortfolioPhoto/blob/main/ProjectPhoto/CASHU_hero.png?raw=true",
+    "mobileBgImg": "https://github.com/MIN82814/PortfolioPhoto/blob/main/ProjectPhoto/CASHU_mobileHero.png?raw=true",
+    "modal": {
+      "heroImage": "https://github.com/MIN82814/PortfolioPhoto/blob/main/ProjectPhoto/CASHU_modal_hero.jpg?raw=true",
+      "mobileHeroImage": "https://github.com/MIN82814/PortfolioPhoto/blob/main/ProjectPhoto/CASHU_modal_mobileHero.png?raw=true",
+      "introImage": "https://github.com/MIN82814/PortfolioPhoto/blob/main/ProjectPhoto/CASHU_modal_introduce.jpg?raw=true",
+      "intro": "與 AAPD UI 設計團隊協作開發行動端記帳 App，負責 Figma 設計稿交接、技術可行性評估與前端流程切版，專案著重於版面高還原度、介面一致性與元件化開發流程。",
+      "technologies": ["HTML", "SCSS", "Bootstrap 5", "Git / GitHub", "SVG"],
+      "links": {
+        "github": "https://github.com/MIN82814/CASHU",
+        "demo": "https://min82814.github.io/CASHU/",
+        "responsiblePages": [
+          {
+            "name": "新增紀錄",
+            "url": "https://min82814.github.io/CASHU/log-add.html"
+          },
+          {
+            "name": "存錢計畫",
+            "url": "https://min82814.github.io/CASHU/plan-save-detail.html"
+          }
+        ]
+      },
+      "responsibilities": [
+        "✦ **行動端介面切版與流程實作**<br>負責「新增紀錄」與「存錢計畫」兩大核心流程開發。依據 Figma 設計稿高品質還原 7 個行動端頁面（375px）與互動介面整合。",
+        "✦ **SCSS 架換規劃與共用樣式開發**<br>**規劃 SCSS 模組化架構**，建立底部導覽列、手機外框與共用 UI 樣式，提升樣式一致性與維護性。",
+        "✦ **模板整合與版型維護**<br>採用 Vite 建置多頁式專案，整合 **EJS 共用模板管理** Header／Footer，**協助團隊維持跨頁面版型一致性與開發效率。**",
+        "✦ **Bootstrap 客製化與介面整合**<br>客製 **Bootstrap SCSS** 變數與 utilities，整合 Tab、Offcanvas 等互動元件，並搭配 **SVG、Lucide Icons 與 Icon Font** 提升介面辨識性與視覺一致性。",
+        "✦ **跨職能協作與版本控管**<br>與 UI 設計師討論介面細節與實作可行性，並與 2 人團隊協作採 **Git Flow 與 Pull Request 協作開發**及負責功能整合。"
+      ],
+      "contentImages": [
+        {
+          "title": "新增紀錄及存錢計畫頁面 完整版面展示",
+          "url": "https://github.com/MIN82814/PortfolioPhoto/blob/main/ProjectPhoto/CASHU-demo.png?raw=true"
+        }
+      ]
+    }
+  },
+  {
+    "id": "project-003",
+    "date": "Sep, 2025",
+    "dateAttr": "2025-09",
+    "tag": ["網頁切版", "UI 設計與規劃"],
+    "title": "Happiness Cookie 甜點電商",
+    "subtitle": "多頁式切版專案，採用 EJS 模板與 SCSS 架構化開發，首頁、商品詳細頁等介面實作。專案著重於版面規劃、元件拆分、RWD 響應式設計與團隊協作開發流程。",
+    "bgImg": "https://github.com/MIN82814/PortfolioPhoto/blob/main/ProjectPhoto/Happinesscookie_hero.png?raw=true",
+    "mobileBgImg": "https://github.com/MIN82814/PortfolioPhoto/blob/main/ProjectPhoto/Happinesscookie_mobileHero.png?raw=true",
+    "modal": {
+      "heroImage": "https://github.com/MIN82814/PortfolioPhoto/blob/main/ProjectPhoto/Happinesscookie_modal_hero.jpg?raw=true",
+      "mobileHeroImage": "https://github.com/MIN82814/PortfolioPhoto/blob/main/ProjectPhoto/Happinesscookie_modal_mobileHero.png?raw=true",
+      "introImage": "https://github.com/MIN82814/PortfolioPhoto/blob/main/ProjectPhoto/Happinesscookie_modal_introduce.jpg?raw=true",
+      "intro": "多頁式切版專案，採用 EJS 模板與 SCSS 架構化開發，首頁、商品詳細頁等介面實作。專案著重於版面規劃、元件拆分、RWD 響應式設計與團隊協作開發流程。",
+      "technologies": ["HTML", "SCSS", "Bootstrap 5", "Vite", "Git / GitHub"],
+      "links": {
+        "github": "https://github.com/MIN82814/Happinesscookie",
+        "demo": "https://min82814.github.io/Happinesscookie/",
+        "responsiblePages": [
+          {
+            "name": "首頁",
+            "url": "https://min82814.github.io/Happinesscookie/"
+          },
+          {
+            "name": "產品詳細頁",
+            "url": "https://min82814.github.io/Happinesscookie/product.html"
+          }
+        ]
+      },
+      "responsibilities": [
+        "✦ **商品詳細頁 UI 規劃與開發**<br>獨立規劃商品詳細頁資訊架構與**版面設計**，進行 **RWD 響應式切版**，提升跨裝置瀏覽體驗。",
+        "✦ **互動元件開發**<br>製作商品圖片輪播與顧客評價輪播功能，並整合側邊購物車（Offcanvas）介面與加入購物車後的互動效果，強化購物流程的操作體驗。",
+        "✦ **共用元件與樣式管理**<br>建立共用按鈕元件與 hover／active 互動效果，運用 **SCSS 架構化管理樣式**，提升介面一致性與後續維護效率。",
+        "✦ **模板整合與團隊協作**<br>參與首頁共同開發整合，與 5 人團隊採用 **Git Flow 策略與 Pull Request** 進行開發，共同參與版本控管與功能整合流程。"
+      ],
+      "contentImages": [
+        {
+          "title": "首頁頁面 完整版面展示",
+          "url": "https://github.com/MIN82814/PortfolioPhoto/blob/main/ProjectPhoto/Happinesscookie-demo.png?raw=true"
+        },
+        {
+          "title": "產品詳細頁面 完整版面展示",
+          "url": "https://github.com/MIN82814/PortfolioPhoto/blob/main/ProjectPhoto/Happinesscookie_detail-demo.png?raw=true"
+        }
+      ]
+    }
+  }
+]
