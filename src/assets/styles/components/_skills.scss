@@ -1,0 +1,58 @@
+// components/_skills.scss
+
+.service {
+  overflow: hidden;
+
+  .service-list {
+    display: flex;
+    gap: 12px; // 卡片與卡片之間的間距
+    padding-left: 0; // 清除 ul 預設的 padding
+    margin-bottom: 0;
+
+    li {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      flex: 1 1 0; // 🖥️ 電腦版：平均分配寬度
+    }
+  }
+
+  // 📱 手機/平板 RWD：實現截圖中的滑動與露出效果！
+  @include media-breakpoint-down(lg) {
+    // 💡 關鍵：給 container 左右加上 padding，這樣滑動時卡片才不會死貼著螢幕邊緣
+    .container {
+      padding-right: 12px;
+      padding-left: 12px;
+    }
+
+    .service-list {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch; // 讓 iOS 滑動更絲滑
+
+      // 💡 隱藏手機版醜醜的橫向捲軸
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      li {
+        // 🔥 終極魔法核心：寬度佔螢幕的 85%
+        // 這樣剩下的 15% 就會「完美露出」下一張卡片的左側邊緣！
+        flex: 0 0 60%;
+      }
+    }
+  }
+  .skill-item {
+    p {
+      text-align: left;
+      white-space: normal;
+      word-break: normal;
+      overflow-wrap: break-word;
+
+      strong {
+        font-weight: 700;
+        color: $neutral-900;
+      }
+    }
+  }
+}

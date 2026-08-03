@@ -71,3 +71,20 @@
     color: $neutral-0; // 文字變白
   }
 }
+
+.btn-primary-600 {
+  color: $neutral-0;
+  &:hover {
+    background-color: $neutral-900;
+    color: $neutral-0;
+    border-color: $neutral-900;
+  }
+
+  &:active,
+  &:focus-visible {
+    background-color: $neutral-900;
+    color: $neutral-0;
+    border-color: $neutral-900;
+    box-shadow: none;
+  }
+}

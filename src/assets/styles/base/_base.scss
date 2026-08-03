@@ -6,6 +6,11 @@
 html {
   scroll-behavior: smooth;
 }
+// /* 讓網頁上所有的標籤都加上淡藍色背景和紅框 */
+// * {
+//   background: rgba(0, 150, 255, 0.1) !important;
+//   outline: 1px solid red !important;
+// }
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -14,6 +19,13 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.5;
   color: $neutral-700;
+}
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 img {

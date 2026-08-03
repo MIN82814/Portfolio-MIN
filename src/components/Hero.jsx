@@ -5,12 +5,12 @@ function Hero() {
         <div className="row align-items-center position-relative">
           <div className="d-none d-lg-flex flex-row-reverse position-absolute decora-6 align-items-center">
             <img
-              src="https://raw.githubusercontent.com/MIN82814/PortfolioPhoto/685ceae8b093c64b4c411d7ebee25528c9f40df7/ProjectPhoto/index_decora_4.svg"
+              src="https://min82814.github.io/PortfolioPhoto/ProjectPhoto/index_decora_4.svg"
               alt="decora_6"
               className="line-6"
             />
             <img
-              src="https://raw.githubusercontent.com/MIN82814/PortfolioPhoto/685ceae8b093c64b4c411d7ebee25528c9f40df7/ProjectPhoto/index_decora_3.svg"
+              src="https://min82814.github.io/PortfolioPhoto/ProjectPhoto/index_decora_3.svg"
               alt="decora_3"
               className="flower "
             />
@@ -36,15 +36,12 @@ function Hero() {
               </div>
 
               <div className="d-flex  gap-3 z-index-front">
-                <a
-                  className="btn btn-neutral-700 w-lg-auto"
-                  href="index.html#projects"
-                >
+                <a className="btn btn-neutral-700 w-lg-auto" href="#projects">
                   專案開發
                 </a>
                 <a
                   className="btn btn-outline-neutral w-lg-auto"
-                  href="index.html#experience"
+                  href="#experience"
                 >
                   專業技能
                 </a>
@@ -52,12 +49,12 @@ function Hero() {
 
               <div className="d-flex align-items-center  position-absolute decora-4">
                 <img
-                  src="https://raw.githubusercontent.com/MIN82814/PortfolioPhoto/685ceae8b093c64b4c411d7ebee25528c9f40df7/ProjectPhoto/index_decora_5.svg"
+                  src="https://min82814.github.io/PortfolioPhoto/ProjectPhoto/index_decora_5.svg"
                   alt="line-5"
                   className="mt-8 mt-lg-12  img-fluid line-5"
                 />
                 <img
-                  src="https://raw.githubusercontent.com/MIN82814/PortfolioPhoto/685ceae8b093c64b4c411d7ebee25528c9f40df7/ProjectPhoto/index_decora_3.svg"
+                  src="https://min82814.github.io/PortfolioPhoto/ProjectPhoto/index_decora_3.svg"
                   alt="decora_3"
                   className="flower-small img-fluid"
                 />
@@ -68,25 +65,25 @@ function Hero() {
           <div className="col-12 col-lg-7 mb-5 mb-lg-0 order-1 order-lg-2">
             <div data-aos="fade-left" className="position-relative w-100">
               <img
-                src="https://github.com/MIN82814/PortfolioPhoto/blob/main/ProjectPhoto/index_min.jpg?raw=true"
+                src="https://min82814.github.io/PortfolioPhoto/ProjectPhoto/index_min.jpg?raw=true"
                 alt="hero-img"
                 className="hero-img w-100 img-fluid"
               />
               {/*圖旁邊彎曲*/}
               <img
-                src="https://raw.githubusercontent.com/MIN82814/PortfolioPhoto/5b432f4edb1ce0f284a0e9b9a079b0a2235390dc/ProjectPhoto/index_decora_1.svg"
+                src="https://min82814.github.io/PortfolioPhoto/ProjectPhoto/index_decora_1.svg"
                 alt="decora_1"
                 className="position-absolute decora-1"
               />
               <img
-                src="https://raw.githubusercontent.com/MIN82814/PortfolioPhoto/685ceae8b093c64b4c411d7ebee25528c9f40df7/ProjectPhoto/index_decora_2.svg"
+                src="https://min82814.github.io/PortfolioPhoto/ProjectPhoto/index_decora_2.svg"
                 alt="decora_2"
                 className="position-absolute decora-2"
               />
             </div>
           </div>
           <img
-            src="https://raw.githubusercontent.com/MIN82814/PortfolioPhoto/685ceae8b093c64b4c411d7ebee25528c9f40df7/ProjectPhoto/index_decora_7.svg"
+            src="https://min82814.github.io/PortfolioPhoto/ProjectPhoto/index_decora_7.svg"
             alt="decora_7"
             className="position-absolute decora-5 d-none d-lg-block flower"
           />

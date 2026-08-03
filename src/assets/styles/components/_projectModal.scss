@@ -1,0 +1,125 @@
+.projectModal-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100dvh;
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: auto;
+  display: none;
+}
+.modal-responsibilities strong {
+  font-weight: 700;
+}
+.projectModal-page.is-active {
+  display: flex;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100dvh;
+  background-color: $dark-60;
+  z-index: 0;
+}
+
+.projectModal {
+  position: relative;
+  z-index: 2;
+
+  width: 100%;
+  max-width: 1100px;
+  padding: 60px 12px 80px 12px;
+  margin: auto;
+
+  @media (max-width: 992px) {
+    padding: 40px 12px 60px 12px;
+  }
+}
+
+.modal-header {
+  padding: 12px 24px;
+  display: flex;
+  justify-content: end;
+
+  .modal-close {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    padding: 12px;
+
+    transition: scale 0.3s ease;
+    &:hover {
+      scale: 1.2;
+    }
+  }
+
+  @media (max-width: 992px) {
+    padding: 8px 12px;
+    .material-symbols-outlined {
+      font-size: 20px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+.modal-hero {
+  width: 100%;
+  height: 294px;
+}
+
+.modal-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 40px;
+  background: $neutral-0;
+
+  @media (max-width: 992px) {
+    padding: 24px 12px;
+    margin-bottom: -1px;
+    gap: 12px;
+  }
+}
+
+.modal-intro {
+  color: $neutral-500;
+  ul {
+    padding-left: 24px;
+    border-left: 1px solid $neutral-500;
+  }
+
+  @media (max-width: 992px) {
+    flex-direction: column;
+    align-items: start;
+    ul {
+      width: 100%;
+      padding-left: 0px;
+      border-left: none;
+
+      padding-top: 20px;
+      border-top: 1px solid $neutral-500;
+    }
+  }
+}
+
+.modal-content {
+  display: flex;
+  justify-content: center;
+
+  padding: 80px 0px;
+  width: 100%;
+
+  background: $primary-200;
+
+  @media (max-width: 992px) {
+    padding: 40px 12px;
+  }
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "job1",
+    "company": "志光教育科技股份有限公司",
+    "period": "Jan. 2016 - 仍在職",
+    "type": "work",
+    "details": [
+      {
+        "title": "響應式網頁開發與維護",
+        "description": "獨立負責從視覺提案到網頁切版的完整流程，使用 VS Code 進行 HTML / CSS 撰寫，確保網頁在不同行動裝置與桌面端的流暢體驗。針對補習班資訊頁及活動頁，實現精準的 UI 轉譯，大幅提升網頁載入後的一致性。"
+      },
+      {
+        "title": "跨部門技術協作與數據串接",
+        "items": [
+          {
+            "subtitle": "跨部門技術對接",
+            "content": "具備與 IT 資訊部協作實務，能配合後端工程師進行動態資料庫與 API 數據串接，並在技術限制與視覺美感間找到最佳解決方案。"
+          },
+          {
+            "subtitle": "需求轉譯與企劃溝通",
+            "content": "具備與企劃端深度溝通之經驗。協助企劃釐清功能邏輯，並確保視覺提案在開發成本與美感之間達成最佳平衡。"
+          },
+          {
+            "subtitle": "數據追蹤與行銷支援",
+            "content": "GTM 的基礎埋點與事件追蹤設置，能依行銷需求設置事件追蹤，協助獲取精確的使用者轉換數據，提升數位行銷效益。"
+          }
+        ]
+      },
+      {
+        "title": "數位行銷視覺體系建置",
+        "description": "建立品牌跨平台視覺規範，產出涵蓋 FB 、 IG 、 LINE 、 Google 等多通路 Banner 廣告。"
+      },
+      {
+        "title": "跨領域全方位支援",
+        "description": "負責實體活動會場視覺工程、出版品（考猜 / 課本）封面設計。具備從實體印刷規範到數位螢幕開發的完整美感控管能力。"
+      }
+    ]
+  },
+  {
+    "id": "job2",
+    "company": "團隊專案經驗",
+    "type": "project",
+    "projects": [
+      {
+        "name": "觀葉森活 電商專案",
+        "period": "Dec. 2025 - Mar. 2026",
+        "description": "與團隊共同開發，提供商品瀏覽、購物流程、文章閱讀與會員管理等功能。專案採用 React 建立前後台系統，透過 RESTful API 串接資料，並以 Git Flow 進行團隊協作開發。",
+        "techs": [
+          "React",
+          "React Router",
+          "Redux Toolkit",
+          "Axios",
+          "React Hook Form",
+          "SCSS",
+          "Bootstrap 5",
+          "Git / GitHub"
+        ]
+      },
+      {
+        "name": "CASHU 記帳 App",
+        "period": "Sep. 2025 - Sep. 2025",
+        "description": "與 AAPD UI 設計團隊協作開發行動端記帳 App，負責 Figma 設計稿交接、技術可行性評估與前端流程切版，專案著重於版面高還原度、介面一致性與元件化開發流程。",
+        "techs": ["HTML", "SCSS", "Bootstrap 5", "Git / GitHub", "SVG"]
+      },
+      {
+        "name": "Happiness Cookie 甜點電商",
+        "period": "Jul. 2025 - Sep. 2025",
+        "description": "多頁式切版專案，採用 EJS 模板與 SCSS 架構化開發，首頁、商品詳細頁等介面實作。專案著重於版面規劃、元件拆分、RWD 響應式設計與團隊協作開發流程。",
+        "techs": ["HTML", "SCSS", "Bootstrap 5", "EJS", "Vite", "Git / GitHub"]
+      }
+    ]
+  },
+  {
+    "id": "job3",
+    "company": "學經歷",
+    "type": "education",
+    "schools": [
+      {
+        "period": "2011 - 2015",
+        "name": "中國科技大學",
+        "major": "視覺傳達設計系大學"
+      },
+      {
+        "period": "2008 - 2011",
+        "name": "景文高中",
+        "major": "資料處理科"
+      }
+    ]
+  }
+]

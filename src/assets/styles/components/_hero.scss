@@ -29,8 +29,9 @@
 // 💡 區塊樣式與定位 (Hero Section)
 // ==========================================
 .hero {
-  overflow-x: clip;
-  min-height: 700px;
+  min-height: 100dvh;
+  overflow: hidden;
+  padding-top: 80px;
   .hero-img {
     width: 100%;
     height: auto;
@@ -78,8 +79,8 @@
   }
 
   .decora-4 {
-    bottom: -30%;
-    left: 38%;
+    bottom: -18%;
+    left: 43%;
     animation-name: floating;
     animation-duration: 3.8s;
     animation-delay: 0.2s;
@@ -92,7 +93,6 @@
     animation-name: floating;
     animation-duration: 4.2s;
     animation-delay: 0.7s;
-    width: 160px;
     height: auto;
   }
   .line-5 {
@@ -100,11 +100,12 @@
     height: 100px;
   }
   .decora-6 {
-    top: 1%;
+    top: 0;
+    left: -6%;
     animation-name: floating;
     animation-duration: 4s;
     animation-delay: 1.2s;
-    width: 280px;
+    width: 270px;
     height: auto;
   }
   .line-6 {
@@ -126,7 +127,7 @@
     animation-name: spinning;
     animation-timing-function: linear;
     animation-duration: 6s;
-    width: 140px;
+    width: 130px;
   }
 
   .flower-small {
@@ -134,12 +135,16 @@
     height: 80px;
   }
 
-  // ==========================================
-  // 📱 RWD 行動裝置回應式設計 (max-width: 992px)
-  // ==========================================
   @media (max-width: 992px) {
-    padding-bottom: 24px;
+    padding-top: 60px;
+    & {
+      /* 💡 核心修正：取消強制定死的高度，讓按鈕與文字自然完整顯示 */
+      height: auto !important;
+      min-height: 0 !important;
 
+      /* 讓網頁可以往下正常捲動看到按鈕，但依然切斷裝飾品橫向溢出 */
+      overflow: hidden !important;
+    }
     .decora-1,
     .decora-2 {
       width: 80px;
@@ -148,7 +153,7 @@
 
     .decora-4 {
       bottom: 72%;
-      left: 63%;
+      left: 60%;
       width: 75px;
       align-items: center;
 
