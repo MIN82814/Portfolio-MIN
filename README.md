@@ -12,10 +12,9 @@ Portfolio MIN 是一個以 React 與 Vite 建置的個人作品集網站，旨�
 
 ---
 
-## 📸 功能展示
+## 📸 作品示意圖
 
-### Hero 首頁
-![Hero 首頁](https://github.com/MIN82814/PortfolioPhoto/blob/main/ProjectPhoto/Portfolio-MIN_modal_hero.jpg?raw=true)
+![Portfolio-MIN](https://github.com/MIN82814/PortfolioPhoto/blob/main/ProjectPhoto/Portfolio-MIN_modal_hero.jpg?raw=true)
 
 
 ---
